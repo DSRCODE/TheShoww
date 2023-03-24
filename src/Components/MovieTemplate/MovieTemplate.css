@@ -1,0 +1,18 @@
+.movie-child{
+    /* border: 2px solid red; */
+    height: 250px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.064);
+    box-shadow: rgba(255, 255, 255, 0.05) 0px 6px 24px 0px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+}
+.tag{
+    text-align: center;
+    color: #ffff;
+    padding-top: 8px;
+}
+.movie-child img {
+    height: 250px;
+    width: 250px;
+}

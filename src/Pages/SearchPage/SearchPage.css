@@ -1,0 +1,53 @@
+.movie_components{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo
+{
+    width: 150px;
+    height: 40px;
+}
+.search_nav{
+    padding: 15px 15px;
+    position: -webkit-sticky;
+    background-color: #f1f2f61e;
+
+}
+.search{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.search input{
+    margin-left: 180px;
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    padding-left: 20px;
+}
+.search_btn{
+    background-color: #efc75e;
+    border: none;
+    outline: none;
+    padding: 2px 8px;
+    width: 100px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: 0.5s;
+}
+.search_btn:hover{
+    background-color: #f0b00d;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}

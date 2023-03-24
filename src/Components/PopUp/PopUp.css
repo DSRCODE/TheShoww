@@ -1,0 +1,99 @@
+.movie_Card{
+    margin-left: 10px;
+    padding: 10px 0;
+}
+.card_body{
+    box-shadow: rgba(255, 255, 255, 0.032) 0px 6px 24px 0px, rgba(255, 255, 255, 0.415) 0px 0px 0px 1px;
+    transition: transform 0.5s; 
+    cursor: pointer;
+}
+.card_body:hover{
+    transform: scale(0.9);
+}
+.movie_img_i{
+    height: 350px;
+    width: 350px;
+}
+.view_btn{
+    margin-inline: 2px;
+    justify-content: space-between;
+    width: 171px;
+    border: none;
+    outline: none;
+    color: #000;
+    background-color: #f3d383e4;
+    cursor: pointer;
+    padding: 2px 5px;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 16px;
+}
+.view_btn:hover{
+    background-color: #f0b00d;
+}
+
+/* Modal CSS */
+.details{
+    display: flex;
+}
+.movie_details{
+    padding: 0 25px;
+}
+.details h3 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 45px;
+}
+p{
+    color: #dbdbdbd4;
+    margin-top: 18px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+p span{
+    color: #efc75e;
+    font-weight: bold;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.date h4{
+    font-size: 15px;
+    color: #dbdbdb7a;
+}
+.movie_img{
+    height: 500px;
+    width: 600px;
+}
+.btns button{
+    padding: 5px 15px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.btns button:hover{
+    background-color: #f7b717;
+}
+.modal {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 1000px;
+    /* --bs-modal-padding: 1rem; */
+    /* --bs-modal-margin: 0.5rem; */
+    --bs-modal-color: ;
+    --bs-modal-bg: #000;
+    --bs-modal-border-color: var(--bs-border-color-translucent);
+    --bs-modal-border-width: var(--bs-border-width);
+    --bs-modal-border-radius: var(--bs-border-radius-lg);
+    --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(var(--bs-body-color-rgb), 0.075);
+    --bs-modal-inner-border-radius: calc(var(--bs-border-radius-lg) - (var(--bs-border-width)));
+    --bs-modal-footer-gap: 0.5rem;
+    --bs-modal-footer-bg: ;
+    --bs-modal-footer-border-color: #000000;
+    /* --bs-modal-footer-border-color: var(--bs-border-color); */
+    /* --bs-modal-footer-border-width: var(--bs-border-width); */
+}
+

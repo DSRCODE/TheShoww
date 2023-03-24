@@ -1,0 +1,203 @@
+:root {
+  --gold: #fee715ff;
+  --white: #ffffff;
+  --black: #04011c;
+}
+
+.Nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #f1f2f61e;
+}
+.navbar {
+  width: 98%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px var(--gold); */
+}
+.navbar .logo label {
+  margin-left: 1rem;
+}
+.navbar .logo label:hover .navelement {
+  display: block;
+}
+.navbar .logo img {
+  height: 40px;
+  width: 150px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+  padding: 2px;
+  margin: 3px;
+}
+.fa-magnifying-glass {
+  content: "\f002";
+  position: relative;
+  right: 9%;
+  top: 3px;
+  color: #04011c;
+}
+.navbar .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .search-bar input {
+  width: 550px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #ffffffd6;
+}
+.navbar .userin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.fa-solid,
+.fas {
+  font-weight: 900;
+  font-size: 1.4em;
+}
+.fa-circle-user:before,
+.fa-user-circle:before {
+  content: "\f2bd";
+  position: relative;
+  right: 50%;
+  font-size: 1.9rem;
+  cursor: pointer;
+  color: var(--gold);
+}
+.navbar .userin ul {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 0px 0px;
+  top: 3.4rem;
+  right: 11rem;
+  background-color: var(--gold);
+  color: #04011c;
+  border-radius: 11px;
+  height: 93%;
+  cursor: pointer;
+  display: none;
+}
+.navbar .userin ul li {
+  list-style: none;
+  height: 12%;
+  color: black;
+  margin-bottom: 14px;
+  padding: 0px;
+}
+.navbar .userin ul li Link {
+  color: #04011c;
+}
+.login {
+  padding: 2px 19px;
+  margin: 0px 20px;
+  border: none;
+  outline: none;
+  background-color: var(--gold);
+  color: var(--black);
+  transition: 0.3s;
+  border-radius: 2px;
+}
+.signin {
+  padding: 2px 16px;
+  /* margin: 0px 5px; */
+  background-color: var(--gold);
+  color: var(--black);
+  border-radius: 3px;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+}
+.signin:hover {
+  background-color: rgb(201, 181, 3);
+}
+.login:hover {
+  background-color: rgb(208, 188, 4);
+}
+
+
+.fa-house:before,
+.fa-navicon:before {
+  content: "\f0c9";
+  color: var(--gold);
+  position: absolute;
+  top: 1.5rem;
+  left: 12rem;
+  font-size: 1.7rem;
+}
+
+/* Media Queary */
+@media screen and (max-width: 1400px) {
+  .navbar .userin {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar .userin {
+    width: 24%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .navbar .userin {
+    width: 26%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar .userin {
+    width: 28%;
+  }
+  .navbar button {
+    display: none;
+  }
+  .navbar .userin {
+    width: 5%;
+  }
+  .navbar .logo {
+    width: 23%;
+  }
+
+  .navbar .search-bar {
+    width: 58%;
+  }
+  .navbar .search-bar input {
+    padding: 3px 37px;
+    font-size: 1rem;
+  }
+  .navbar .userin ul {
+    right: 1rem;
+    width: 12%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .fa-circle-user:before,
+  .fa-user-circle:before {
+    font-size: 2rem;
+  }
+  .fa-house:before,
+  .fa-navicon:before {
+    left: 10rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar .userin ul {
+    right: 1rem;
+    width: 25%;
+  }
+}

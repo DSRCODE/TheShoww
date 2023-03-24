@@ -1,0 +1,23 @@
+:root {
+  --gold: #efc75e;
+  --white: #ffffff;
+  --black: #04011c;
+}
+.home {
+  display: flex;
+  margin-top: 3rem;
+}
+.image_slider {
+  padding: 3px 0;
+}
+.carousel {
+  height: 500px;
+}
+.main_slide img {
+  height: 500px;
+}
+h2{
+  text-align: center;
+  margin-top: 19px;
+  color: #ffffff69;
+}
